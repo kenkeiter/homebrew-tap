@@ -7,8 +7,8 @@ class Plasticturtle < Formula
   head "https://github.com/kenkeiter/plasticturtle.git", branch: "main"
 
   depends_on "go" => :build
-  depends_on "cirruslabs/cli/tart"
   depends_on arch: :arm64
+  depends_on "cirruslabs/cli/tart"
   depends_on :macos
 
   def install
